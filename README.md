@@ -1,5 +1,5 @@
 # Regression-Model-Score-Prediction
-Predict the score of a student based on the numbers of hours spent studying
+Predict the score of a student based on the numbers of hours spent studying. <br>
 The goal of this project is to predict student scores based on the number of hours they study. By analyzing the relationship between study hours and scores, we aim to develop a predictive model that can accurately estimate a student's performance.
 
 The dataset used for this analysis consists of information on students' study hours and corresponding scores. It includes variables such as the number of hours studied and the achieved score. Our objective is to explore the dataset, perform exploratory data analysis (EDA), and develop a predictive model.
