@@ -1,0 +1,23 @@
+import streamlit as st 
+st.set_page_config(page_title='Score Prediction', page_icon=':tada:', layout='wide')
+
+
+st.subheader('Hi am Shuaibu ':wave:')
+st.title('A Data Scientist from Nigeria')
+st.write('I am a highly skilled and motivated Data Scientist and Analyst with a passion for leveraging data-driven insights to solve complex business problems. With a strong foundation in statistical analysis, machine learning, and programming, I thrive on extracting meaningful information from raw data to drive strategic decision-making and optimize business outcomes.
+
+My expertise lies in translating business requirements into analytical solutions by employing a combination of statistical techniques, data mining, and predictive modeling. I have a proven track record of successfully delivering actionable insights that have led to improved operational efficiency, increased revenue, and enhanced customer experiences.
+
+ I have honed my skills in data manipulation, data visualization, and exploratory data analysis to uncover patterns, trends, and relationships that drive business growth. I am proficient in Python and R programming languages and have experience with SQL and various data analysis tools and platforms.
+
+I am adept at developing and implementing machine learning algorithms and predictive models to solve complex business problems. I have hands-on experience in areas such as customer segmentation, demand forecasting, churn prediction, and recommendation systems. By leveraging these techniques, I have helped organizations optimize their marketing strategies, improve customer retention, and maximize profitability.
+
+In addition to my technical skills, I possess strong communication and collaboration abilities. I excel at translating complex analytical concepts into easily understandable insights for stakeholders at all levels. I thrive in a collaborative team environment, where I can combine my analytical expertise with the diverse perspectives of cross-functional teams to deliver innovative solutions.
+I am constantly driven by a curiosity for exploring new technologies, staying up-to-date with the latest advancements in the field of data science and analytics. I am passionate about applying these advancements to real-world business challenges, continuously seeking opportunities to improve processes and drive organizational growth.
+
+If you are looking for a dedicated and results-oriented data scientist and analyst who can make a significant impact on your business, please reach out. I am always excited to collaborate on challenging projects that push the boundaries of data-driven decision-making.
+
+Let's connect and explore how we can drive data-powered success together.
+Twitter: @s_barde74
+GitHub: https://github.com/Barde-S
+Mail: mallamsz74@gmail.com')
