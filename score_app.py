@@ -1,3 +1,4 @@
+pip install --upgrade matplotlib
 
 # Import libraries
 import numpy as np 
