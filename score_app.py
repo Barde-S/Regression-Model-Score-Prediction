@@ -45,7 +45,6 @@ st.markdown('<hr>', unsafe_allow_html=True)
 a1='''
 import streamlit as st\n
 import pandas as pd\n
-import dabl\n
 import matplotlib.pyplot as plt\n
 from sklearn.model_selection import train_test_split\n
 from sklearn.linear_model import LinearRegression\n
