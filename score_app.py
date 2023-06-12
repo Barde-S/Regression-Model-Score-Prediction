@@ -2,7 +2,6 @@
 import streamlit as st
 import numpy as np 
 import pandas as pd 
-import dabl
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split 
 from sklearn.linear_model import LinearRegression 
@@ -88,20 +87,21 @@ st.pyplot(plt)
 '\n'
 st.write('''You can see that the hours are almost equaly distributed. However people studied between 2-3 hours most.\n
 While for scores, people mostly got scores between 25-30''')
-
-code='''dabl.plot(df, target_col='Scores')
-plt.title("Distribution of Scores vs Hours of Study")
-plt.xlabel("Hours of Study")
-plt.ylabel("Scores")
+ 
+code='''df.plot(x='Hours', y='Scores', style='o')  
+plt.title('Hours vs Percentage')  
+plt.xlabel('Hours Studied')  
+plt.ylabel('Percentage Score')  
 plt.show()'''
 st.code(code, language='python')
 
-dabl.plot(df, target_col='Scores')
-plt.title("Distribution of Scores vs Hours of Study")
-plt.xlabel("Hours of Study")
-plt.ylabel("Scores")
+df.plot(x='Hours', y='Scores', style='o')  
+plt.title('Hours vs Percentage')  
+plt.xlabel('Hours Studied')  
+plt.ylabel('Percentage Score')  
 plt.tight_layout()
 st.pyplot(plt)
+plt.close()
 plt.close()
 
 # DataFrame information
